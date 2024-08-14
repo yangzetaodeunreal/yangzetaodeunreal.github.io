@@ -26,7 +26,7 @@ const langFont = computed(() => {
       <RouterLink to="/" class="header-item">{{ $t('layout.home') }}</RouterLink>
       <RouterLink to="/blogPosts" class="header-item">{{ $t('layout.blogPosts') }}</RouterLink>
         <select class="lang-select" @change="langSelectChanged" v-model="$i18n.locale">
-          <option :value="lang" v-for="lang in $i18n.availableLocales">{{ langNames.get(lang) }}</option>
+          <option :key="lang" :value="lang" v-for="lang in $i18n.availableLocales">{{ langNames.get(lang) }}</option>
         </select>
     </nav>
   </header>
@@ -83,7 +83,7 @@ header {
 }
 
 .header-item {
-  padding: 15px;
+  padding: 10px;
   text-decoration: none;
 }
 

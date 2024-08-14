@@ -86,8 +86,6 @@
 .intro {
     display: flex;
     gap: 10px;
-
-    font-size: large;
 }
 
 @media only screen and (max-width: 850px) {
@@ -112,20 +110,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    font-size: large;
     gap: 50px;
 }
 
 .skill-item {
-    width: 400px;
+    width: 300px;
 }
 
 .skill-item img {
-    width: 150px;
+    width: 100px;
 }
 
 .skill-more {
-    font-size: large;
     color: gray;
     padding: 50px;
 }
@@ -138,7 +134,6 @@
 }
 
 .career-node {
-    font-size: large;
     text-align: center;
 }
 
@@ -155,7 +150,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    font-size: large;
     align-items: center;
     justify-content: center;
 }
