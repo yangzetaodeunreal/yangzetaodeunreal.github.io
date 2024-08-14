@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="9.0522413mm"
+   height="36.408375mm"
+   viewBox="0 0 9.0522409 36.408373"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="storyLine.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showborder="true"
+     borderlayer="true"
+     labelstyle="default"
+     shape-rendering="auto"
+     inkscape:clip-to-page="false"
+     inkscape:zoom="2.4123724"
+     inkscape:cx="-66.532017"
+     inkscape:cy="73.993552"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path8" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-99.800748,-95.318606)">
+    <path
+       id="path6-9"
+       style="fill:#ffa500;stroke-width:0.216992;stroke-linecap:square;stroke-miterlimit:0;paint-order:markers fill stroke"
+       d="M 106.73243,99.171598 A 1.7324346,1.7324382 0 0 1 105,100.90404 1.7324346,1.7324382 0 0 1 103.26757,99.171598 1.7324346,1.7324382 0 0 1 105,97.43916 a 1.7324346,1.7324382 0 0 1 1.73243,1.732438 z M 105,95.318606 A 3.8530855,3.8530855 0 0 0 101.14701,99.171601 3.8530855,3.8530855 0 0 0 105,103.02459 3.8530855,3.8530855 0 0 0 108.85299,99.171601 3.8530855,3.8530855 0 0 0 105,95.318606 Z m 0,0.758093 a 3.0947061,3.0947125 0 0 1 3.0949,3.094902 A 3.0947061,3.0947125 0 0 1 105,102.26598 3.0947061,3.0947125 0 0 1 101.90562,99.171601 3.0947061,3.0947125 0 0 1 105,96.076699 Z" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffa500;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:14, 2, 0.1, 2;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:normal"
+       d="m 105,104.08293 c 0,0 5.72921,8.25211 0,13.68116 -5.72921,5.42904 -0.68404,13.16132 -0.68404,13.16132"
+       id="path1" />
+  </g>
+</svg>
