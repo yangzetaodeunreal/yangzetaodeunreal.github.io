@@ -16,16 +16,17 @@
                 <p>{{ $t('home.skillCSharp') }}</p>
             </div>
             <div class="skill-item">
-                <img src="../assets/golang-svgrepo-com.svg" alt="c-sharp">
-                <p>{{ $t('home.skillGolang') }}</p>
-            </div>
-            <div class="skill-item">
                 <img src="../assets/vue-svgrepo-com.svg" alt="c-sharp">
                 <p>{{ $t('home.skillVue') }}</p>
             </div>
+            
             <div class="skill-item">
                 <img src="../assets/icons8-sql-server.svg" alt="c-sharp">
                 <p>{{ $t('home.skillSQL') }}</p>
+            </div>
+            <div class="skill-item">
+                <img src="../assets/golang-svgrepo-com.svg" alt="c-sharp">
+                <p>{{ $t('home.skillGolang') }}</p>
             </div>
             <div class="skill-item">
                 <img src="../assets/icons8-git.svg" alt="c-sharp">
@@ -66,7 +67,7 @@
             <img src="../assets/wechatQRCode.png" alt="wechatQRCode">
             <div>
                 <p>{{ $t('home.wechat')}}:<a href="https://u.wechat.com/MNHs6i2BJ0vDAwnM2mdX9Nw?s=2">danieldeweixinhao</a></p>
-                <p>{{ $t('home.email') }}:<a href="mailto:zetao_yang@outlook.com">zetao_yang@outlook.com</a></p>
+                <p>{{ $t('home.email') }}:<a href="mailto:zetao_yang@outlook.com">mail@zetaoyang.com</a></p>
             </div>
         </div>
     </section>
