@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router';
 import { i18n } from './i18n'
-import { computed, onMounted, ref } from 'vue';
+import { computed } from 'vue';
 
 
 const langNames = new Map<string, string>([
@@ -26,7 +26,7 @@ const langFont = computed(() => {
   <header>
     <nav class="header-bar">
       <RouterLink to="/" class="header-item">{{ $t('layout.home') }}</RouterLink>
-      <RouterLink to="/blogPosts" class="header-item">{{ $t('layout.blogPosts') }}</RouterLink>
+      <RouterLink to="/docs" class="header-item">{{ $t('layout.blogPosts') }}</RouterLink>
         <select class="lang-select" @change="langSelectChanged" v-model="$i18n.locale">
           <option :key="lang" :value="lang" v-for="lang in $i18n.availableLocales">{{ langNames.get(lang) }}</option>
         </select>
