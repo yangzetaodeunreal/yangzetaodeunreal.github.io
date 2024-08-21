@@ -67,7 +67,7 @@
             <img src="../assets/wechatQRCode.png" alt="wechatQRCode">
             <div>
                 <p>{{ $t('home.wechat')}}:<a href="https://u.wechat.com/MNHs6i2BJ0vDAwnM2mdX9Nw?s=2">danieldeweixinhao</a></p>
-                <p>{{ $t('home.email') }}:<a href="mailto:zetao_yang@outlook.com">mail@zetaoyang.com</a></p>
+                <p>{{ $t('home.email') }}:<a href="mailto:mail@zetaoyang.com">mail@zetaoyang.com</a></p>
             </div>
         </div>
     </section>

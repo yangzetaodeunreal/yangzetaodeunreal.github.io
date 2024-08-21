@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router';
 import { i18n } from './i18n'
-import { computed, ref } from 'vue';
+import { computed, onMounted, ref } from 'vue';
+
+
 const langNames = new Map<string, string>([
   ["en", "English"],
   ["zh-CN", "简体中文"]
