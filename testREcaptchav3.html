@@ -5,20 +5,17 @@
     <title>Document</title>
     <script src="https://www.google.com/recaptcha/api.js?render=6LdRiIkqAAAAAKXh_SSQpaAvX_pzyPTcZ4UuQCsx"></script>
     <script>
-        function onClick(e) {
-          e.preventDefault();
-          grecaptcha.ready(function() {
-            grecaptcha.execute('6LdRiIkqAAAAAKXh_SSQpaAvX_pzyPTcZ4UuQCsx', {action: 'validate_captcha'}).then(function(token) {
-                console.log(token)
-            });
-          });
+        function onSubmit(token) {
+          document.getElementById("demo-form").submit();
         }
-    </script>
+      </script>
 </head>
 <body>
-    <form id="form_id" method="post" action="your_action.php">
-        <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
-        <input type="hidden" name="action" value="validate_captcha">
+    <form id="demo-form" method="post" action="your_action.php">
+        <button class="g-recaptcha" 
+        data-sitekey="reCAPTCHA_site_key" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button>
     </form>
     
 </body>
